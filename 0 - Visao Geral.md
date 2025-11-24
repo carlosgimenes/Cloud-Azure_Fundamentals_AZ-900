@@ -4,7 +4,7 @@
 ### Linkedin: **Não se aplica**
 ### **Página do curso no Microsoft Learn**: [Link para página do curso no Microsoft Learn](https://learn.microsoft.com/pt-br/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
 ### Pasta no Google Drive de apoio ao Treinamento: [Link Google Drive para pasta do curso](https://drive.google.com/drive/folders/16fRCOb3TQeQJcQxtM44eZpDGNZBSuaeV?usp=sharing)
-### Início: **23/10/2024**
+### Início: **18/07/2025**
 ### Término: 
 
 ## A Jornada
