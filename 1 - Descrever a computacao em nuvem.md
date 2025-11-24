@@ -1,8 +1,6 @@
-# [Microsoft Azure Fundamentals AZ-900](https://learn.microsoft.com/pt-br/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
+# Microsoft Certifield: Microsoft Azure Fundamentals AZ-900
 
-## Módulos neste roteiro de aprendizagem
-
-### [Módulo 1 - Descrever a computação em nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/)
+## [Módulo 1 - Descrever a computação em nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/)
 
 Este módulo apresenta a computação em nuvem. Ele aborda coisas como conceitos de nuvem, modelos de implantação e compreensão da responsabilidade compartilhada na nuvem.
 
@@ -16,37 +14,6 @@ Visão geral
 - [Descrever o modelo baseado em consumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/6-describe-consumption-based-model)
 - [Veficiação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/7-knowledge-check)
 - [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/8-summary)
-
-### [Módulo 2 - Descrever os benefícios do uso de serviços de nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/)
-
-Este módulo apresenta os benefícios que a computação em nuvem pode oferecer a você ou à organização.
-
-Visão geral
-
-- [Introdução](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever os benefícios da confiabilidade e previsibilidade na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever os benefícios da segurança e da governança na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever os benefícios da capacidade de gerenciamento na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-
-### [Módulo 3 - Descrever os tipos de serviço de nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/)
-
-Este módulo aborda os diferentes tipos de serviço de nuvem e compartilha alguns dos casos de uso e dos benefícios alinhados a cada tipo de serviço.
-
-Visão geral
-
-- [Introdução](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever a infraestrutura como um serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/2-describe-infrastructure-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever a plataforma como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/3-describe-platform-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever o software como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/4-describe-software-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-
----
-
-# Módulo 1 - Descrever a computação em nuvem
 
 ## Introdução aos conceitos básicos do Microsoft Azure
 
