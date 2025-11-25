@@ -289,8 +289,8 @@ Agora você deve estar apto a:
 
 Os recursos a seguir oferecem mais informações sobre os tópicos neste módulo ou relacionados a ele.
 
-- [Modelo de responsabilidade compartilhada](https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility). O modelo de - responsabilidade compartilhada é a divisão de responsabilidades pela nuvem entre você e seu provedor de nuvem.
-- [Introdução à Solução VMware no Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-azure-vmware-solution/) é um curso do Microsoft Learn que - aprofunda o conhecimento sobre a Solução VMware no Azure.
-- [Introdução aos serviços de nuvem híbrida do Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-to-azure-hybrid-services/) é um curso do - Microsoft Learn que explica a nuvem híbrida com mais detalhes.
+- [Modelo de responsabilidade compartilhada](https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility). O modelo de responsabilidade compartilhada é a divisão de responsabilidades pela nuvem entre você e seu provedor de nuvem.
+- [Introdução à Solução VMware no Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-azure-vmware-solution/) é um curso do Microsoft Learn que aprofunda o conhecimento sobre a Solução VMware no Azure.
+- [Introdução aos serviços de nuvem híbrida do Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-to-azure-hybrid-services/) é um curso do Microsoft Learn que explica a nuvem híbrida com mais detalhes.
 
 ---
