@@ -12,8 +12,8 @@ Visão geral
 - [Descrever o modelo de responsabilidade compartilhada](#descrever-o-modelo-de-responsabilidade-compatilhada)
 - [Definir modelos de nuvem](#definir-modelos-de-nuvem)
 - [Descrever o modelo baseado em consumo](#descrever-o-modelo-baseado-em-consumo)
-- [Veficiação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/7-knowledge-check)
-- [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/8-summary)
+- [Veficiação de conhecimentos](#veficiação-de-conhecimentos)
+- [Resumo](#resumo)
 
 ## [Introdução aos conceitos básicos do Microsoft Azure](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/1-introduction-microsoft-azure-fundamentals)
 
