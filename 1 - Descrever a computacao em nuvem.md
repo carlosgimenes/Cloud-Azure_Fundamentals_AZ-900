@@ -269,3 +269,28 @@ Ao comparar modelos de infraestrutura de TI, há dois tipos de despesas a serem 
 ---
 
 ## Resumo
+
+Neste módulo, você aprendeu os conceitos gerais de nuvem. No início, você começou com coisas como simplesmente entender o que é computação em nuvem. Você também entendeu o modelo de responsabilidade compartilhada e como você e o provedor de nuvem compartilham a responsabilidade de manter a segurança das informações na nuvem. Você abordou brevemente as diferenças entre os modelos de nuvem (pública, privada, híbrida e multinuvem). Depois, concluímos com uma unidade explicando como a nuvem muda os gastos de TI de despesa de capital para despesa operacional.
+
+### Objetivos de aprendizagem
+
+Agora você deve estar apto a:
+
+- Definir a computação em nuvem.
+- Descrever o modelo de responsabilidade compartilhada.
+- Definir modelos de nuvem, incluindo público, privado e híbrido.
+- Identificar os casos de uso apropriados para cada modelo de nuvem.
+- Descrever o modelo baseado no consumo.
+- Comparar os modelos de preços de nuvem.
+
+---
+
+### Recursos adicionais
+
+Os recursos a seguir oferecem mais informações sobre os tópicos neste módulo ou relacionados a ele.
+
+[Modelo de responsabilidade compartilhada](https://learn.microsoft.com/pt-br/azure/security/fundamentals/shared-responsibility). O modelo de responsabilidade compartilhada é a divisão de responsabilidades pela nuvem entre você e seu provedor de nuvem.
+[Introdução à Solução VMware no Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-azure-vmware-solution/) é um curso do Microsoft Learn que aprofunda o conhecimento sobre a Solução VMware no Azure.
+[Introdução aos serviços de nuvem híbrida do Azure](https://learn.microsoft.com/pt-br/learn/modules/intro-to-azure-hybrid-services/) é um curso do Microsoft Learn que explica a nuvem híbrida com mais detalhes.
+
+---
