@@ -11,7 +11,7 @@ Visão geral
 - [O que é computação em nuvem](#o-que-é-computação-em-nuvem)
 - [Descrever o modelo de responsabilidade compartilhada](#descrever-o-modelo-de-responsabilidade-compatilhada)
 - [Definir modelos de nuvem](#definir-modelos-de-nuvem)
-- [Descrever o modelo baseado em consumo](#descrever-o-modelo-de-responsabilidade-compatilhada)
+- [Descrever o modelo baseado em consumo](#descrever-o-modelo-baseado-em-consumo)
 - [Veficiação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/7-knowledge-check)
 - [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/8-summary)
 
