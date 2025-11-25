@@ -202,10 +202,6 @@ Confiabilidade e previsibilidade são dois benefícios cruciais na nuvem que aju
 
 ---
 
-Perfeito, Carlos! Vamos montar um **quadro comparativo** que conecta diretamente os **5 pilares do Azure Well-Architected Framework (WAF)** com os **benefícios da nuvem** que você já estudou (alta disponibilidade, escalabilidade, confiabilidade, previsibilidade, etc.). Isso ajuda a fixar melhor para a prova AZ-900.
-
----
-
 ## 📊 Quadro comparativo – WAF x Benefícios da Nuvem
 
 | Pilar do WAF              | Objetivo principal | Benefícios da nuvem relacionados | Exemplos práticos |
