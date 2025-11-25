@@ -61,7 +61,7 @@ Como a computação em nuvem usa a Internet para fornecer esses serviços, ela n
 
 ## [Descrever o modelo de responsabilidade compatilhada](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/4-describe-shared-responsibility-model)
 
-Comece com um datacenter corporativo tradicional.
+Você já deve ter ouvido falar do modelo de responsabilidade compartilhada, mas talvez não entenda o que isso significa ou como ele afeta a computação em nuvem. Comece com um datacenter corporativo tradicional.
 
 ### A empresa é responsável por
 
@@ -128,6 +128,136 @@ Seu modelo de serviço derterminará a responsabilidade por coisas como:
 
 O que são modelos de nuvem? _**Os modelos de nuvem definem o tipo de implantação de rescursos de nuvem.**_ Os três principais modelos de nuvem são: privado, público e híbrido.
 
-### Nuvem privada
+### ☁️ Nuvem Privada
 
-Parei aqui: https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/5-define-cloud-models
+- Usada por **uma única organização**.
+- Hospedada em datacenter **local** ou **dedicado externo**.
+- **Vantagens**: maior controle sobre recursos e segurança.
+- **Desvantagens**: custos mais altos, responsabilidade pela manutenção e atualização de hardware.
+
+---
+
+### ☁️ Nuvem Pública
+
+- Criada e mantida por **provedor de terceiros** (ex.: Microsoft Azure).
+- Recursos disponíveis para **qualquer cliente**.
+- **Vantagens**:
+  - Sem despesas de capital para escalar.
+  - Provisionamento/desprovisionamento rápido.
+  - Pagamento apenas pelo uso.
+- **Desvantagens**: menos controle sobre segurança e recursos.
+
+---
+
+### ☁️ Nuvem Híbrida
+
+- Combina **pública + privada** em ambiente interconectado.
+- **Vantagens**:
+  - Flexibilidade para escalar (burst para nuvem pública).
+  - Escolha de onde executar aplicativos (privado ou público).
+  - Controle adicional sobre segurança, conformidade e requisitos legais.
+
+---
+
+### 📊 Comparativo Rápido
+
+| Modelo        | Pontos Fortes | Pontos Fracos |
+|---------------|---------------|---------------|
+| **Pública**   | Escalabilidade rápida, custo sob demanda | Menos controle de segurança |
+| **Privada**   | Controle total, dados isolados | Alto custo, manutenção própria |
+| **Híbrida**   | Maior flexibilidade, escolha de execução | Complexidade de gerenciamento |
+
+---
+
+### 🌐 Cenário de Múltiplas Nuvens
+
+- Uso de **vários provedores de nuvem pública**.
+- Pode ocorrer por estratégia ou migração.
+- Desafio: gerenciar **recursos e segurança em diferentes ambientes**.
+
+---
+
+### 🛠️ Tecnologias Relacionadas
+
+- **Azure Arc**: gerenciamento unificado de ambientes (público, privado, híbrido, múltiplas nuvens).
+- **Solução VMware no Azure**: permite rodar cargas VMware no Azure com integração e escalabilidade.
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **nuvem pública, privada e híbrida**.  
+- **Vantagens e desvantagens** de cada modelo.  
+- Conceito de **múltiplas nuvens**.  
+- Função do **Azure Arc**.  
+- Uso da **Solução VMware no Azure** para migração.  
+
+---
+
+## [Descrever o modelo baseado em consumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/6-describe-consumption-based-model)
+
+Ao comparar modelos de infraestrutura de TI, há dois tipos de despesas a serem consideradas. CapEx (despesas de capital) e OpEx (despesas operacionais).
+
+### 🔹 CapEx vs. OpEx
+
+- **CapEx (Capital Expenditure)**  
+  - Despesa inicial única para aquisição de ativos tangíveis.  
+  - Exemplos: construção de datacenter, compra de veículos, obras físicas.  
+  - Exige investimento alto antecipado e planejamento de capacidade futura.  
+
+- **OpEx (Operational Expenditure)**  
+  - Custos recorrentes ao longo do tempo, relacionados a serviços/produtos.  
+  - Exemplos: aluguel de espaço, leasing de veículos, assinatura de serviços de nuvem.  
+  - Mais flexível, ajusta-se à demanda real.  
+
+---
+
+### ☁️ Modelo baseado em consumo (Cloud)
+
+- A nuvem é **OpEx**: paga-se apenas pelo uso dos recursos.  
+- Não há custos com infraestrutura física, energia, segurança ou manutenção de datacenter.  
+- Se não usar recursos, não há cobrança.  
+
+---
+
+### ✅ Benefícios
+
+- **Sem custos prévios** (não há investimento inicial em hardware).  
+- **Elasticidade**: pagar por mais recursos quando necessário.  
+- **Eficiência**: parar de pagar por recursos não usados.  
+- **Escalabilidade rápida**: adicionar/remover máquinas virtuais conforme demanda.  
+- **Previsibilidade de custos**: planejar e gerenciar gastos operacionais com mais precisão.  
+
+---
+
+### ⚖️ Comparação com datacenter tradicional
+
+- **Datacenter tradicional**: exige estimar capacidade futura.  
+  - Superestimar → desperdício de capital.  
+  - Subestimar → falta de capacidade, queda de desempenho, demora para expandir.  
+- **Nuvem**: elimina a necessidade de estimar com precisão.  
+  - Recursos podem ser ajustados dinamicamente.  
+  - Pagamento apenas pelo uso real.  
+
+---
+
+### 📊 Modelo de preços da nuvem
+
+- **Pay-as-you-go (pague conforme o uso)**.  
+- Permite:  
+  - Planejar custos operacionais.  
+  - Executar infraestrutura com eficiência.  
+  - Escalar operações conforme necessidades do negócio.  
+- Analogia: **aluguel de capacidade computacional e armazenamento** em vez de compra definitiva.  
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **CapEx e OpEx**.  
+- Por que a nuvem é considerada **OpEx**.  
+- Benefícios do **modelo baseado em consumo**.  
+- Diferença entre **datacenter tradicional** e **nuvem** em termos de custos e escalabilidade.  
+- Conceito de **pay-as-you-go**.  
+
+---
