@@ -7,7 +7,7 @@ Este módulo apresenta os benefícios que a computação em nuvem pode oferecer 
 Visão geral
 
 - [Introdução](#introdução)
-- [Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/2-high-availability-scalability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+- [Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem](#descrever-os-benefícios-da-alta-disponibilidade-e-da-escalabilidade-na-nuvem)
 - [Descrever os benefícios da confiabilidade e previsibilidade na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/3-reliability-predictability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
 - [Descrever os benefícios da segurança e da governança na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
 - [Descrever os benefícios da capacidade de gerenciamento na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
