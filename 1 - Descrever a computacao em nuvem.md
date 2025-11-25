@@ -261,3 +261,11 @@ Ao comparar modelos de infraestrutura de TI, há dois tipos de despesas a serem 
 - Conceito de **pay-as-you-go**.  
 
 ---
+
+## [Veficiação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/7-knowledge-check)
+
+![img-AvaliacaoModulo1.png](./images/AvaliacaoModulo1.png)
+
+---
+
+## Resumo
