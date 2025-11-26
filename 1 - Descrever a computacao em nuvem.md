@@ -268,7 +268,7 @@ Ao comparar modelos de infraestrutura de TI, há dois tipos de despesas a serem 
 
 ---
 
-## Resumo
+## [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-compute/8-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
 
 Neste módulo, você aprendeu os conceitos gerais de nuvem. No início, você começou com coisas como simplesmente entender o que é computação em nuvem. Você também entendeu o modelo de responsabilidade compartilhada e como você e o provedor de nuvem compartilham a responsabilidade de manter a segurança das informações na nuvem. Você abordou brevemente as diferenças entre os modelos de nuvem (pública, privada, híbrida e multinuvem). Depois, concluímos com uma unidade explicando como a nuvem muda os gastos de TI de despesa de capital para despesa operacional.
 
