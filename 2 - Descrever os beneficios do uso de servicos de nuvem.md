@@ -10,9 +10,9 @@ Visão geral
 - [Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem](#descrever-os-benefícios-da-alta-disponibilidade-e-da-escalabilidade-na-nuvem)
 - [Descrever os benefícios da confiabilidade e previsibilidade na nuvem](#descrever-os-benefícios-da-confiabilidade-e-previsibilidade-na-nuvem)
 - [Descrever os benefícios da segurança e da governança na nuvem](#descrever-os-benefícios-da-segurança-e-da-governança-na-nuvem)
-- [Descrever os benefícios da capacidade de gerenciamento na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+- [Descrever os benefícios da capacidade de gerenciamento na nuvem](#descrever-os-benefícios-da-capacidade-de-gerenciamento-na-nuvem)
+- [Verificação de conhecimentos](#verificação-de-conhecimentos)
+- [Resumo](#resumo)
 
 ---
 
@@ -229,6 +229,127 @@ Confiabilidade e previsibilidade são dois benefícios cruciais na nuvem que aju
 
 ## [Descrever os benefícios da segurança e da governança na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/4-security-governance-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
 
-Parei aqui!
+**Segurança e Governança** são pilares fundamentais da nuvem e aparecem com frequência no exame **AZ-900**.
+
+### 🔹 Governança
+
+- **Definição**: conjunto de práticas para garantir que recursos de nuvem estejam em conformidade com **padrões corporativos e regulatórios**.  
+- **Ferramentas e práticas**:
+  - **Modelos de conjunto (templates)** → garantem que recursos sejam implantados conforme padrões definidos.  
+  - **Atualizações centralizadas** → aplicar novos padrões em todos os recursos já implantados.  
+  - **Auditoria baseada em nuvem** → identifica recursos fora de conformidade e sugere mitigação.  
+  - **Automação de patches e atualizações** → mantém sistemas atualizados e seguros.  
+- **Benefício-chave**: presença na nuvem **bem gerenciada, atualizada e em conformidade**.
+
+---
+
+### 🔹 Segurança
+
+- **Infraestrutura como Serviço (IaaS)**  
+  - Maior controle sobre segurança.  
+  - Responsabilidade do cliente: gerenciar sistemas operacionais, software, patches e manutenção.  
+
+- **Plataforma como Serviço (PaaS) / Software como Serviço (SaaS)**  
+  - Patches e manutenção aplicados **automaticamente pelo provedor**.  
+  - Menos responsabilidade direta do cliente.  
+
+- **Proteção contra ataques**  
+  - Provedores de nuvem oferecem defesa contra **DDoS (Distributed Denial of Service)**.  
+  - Rede mais robusta e segura por padrão.  
+
+---
+
+### 📊 Comparativo rápido
+
+| Modelo de serviço | Responsabilidade do cliente | Responsabilidade do provedor |
+|-------------------|-----------------------------|-------------------------------|
+| **IaaS**          | SO, software, patches, manutenção | Infraestrutura física |
+| **PaaS**          | Aplicações e dados | SO, patches, manutenção |
+| **SaaS**          | Uso da aplicação | Toda a infraestrutura e manutenção |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **IaaS, PaaS e SaaS** em termos de responsabilidade de segurança.  
+- Função da **governança**: conformidade, auditoria e aplicação de padrões.  
+- Benefícios da **automação de patches e atualizações**.  
+- Papel da nuvem na **proteção contra ataques DDoS**.  
+- Importância de estabelecer governança desde o início para manter ambiente seguro e bem gerenciado.  
+
+---
+
+## [Descrever os benefícios da capacidade de gerenciamento na nuvem](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/5-manageability-cloud/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+Um dos principais benefícios da computação em nuvem são as opções de capacidade de gerenciamento. Há dois tipos de capacidade de gerenciamento para computação em nuvem que aprederemos nesta série e ambos trazem excelentes benefícios.
+
+### 🔹 Gerenciamento **da nuvem**
+
+Focado em **administrar os recursos implantados**.  
+Principais benefícios:
+
+- **Escalabilidade automática** → ajusta recursos conforme necessidade.  
+- **Implantação via modelos pré-configurados** → elimina configuração manual, garante consistência.  
+- **Monitoramento de integridade** → substitui automaticamente recursos com falha.  
+- **Alertas automáticos** → baseados em métricas configuradas, fornecem visibilidade em tempo real.  
+
+👉 Benefício-chave: **eficiência operacional** e **redução de erros humanos**.
+
+---
+
+### 🔹 Gerenciamento **na nuvem**
+
+Focado em **como você interage e administra o ambiente de nuvem**.  
+Opções de gerenciamento:
+
+- **Portal da Web (Azure Portal)** → interface gráfica, intuitiva.  
+- **CLI (Command-Line Interface)** → comandos diretos, ideal para automação rápida.  
+- **APIs** → integração com sistemas e aplicações.  
+- **PowerShell** → scripts avançados para automação e administração.  
+
+👉 Benefício-chave: **flexibilidade de gerenciamento**, adaptando-se ao perfil da equipe (visual, script, integração).
+
+---
+
+### 📊 Comparativo rápido
+
+| Tipo de gerenciamento | Foco | Exemplos de benefícios |
+|-----------------------|------|------------------------|
+| **Da nuvem**          | Recursos implantados | Autoescala, monitoramento, alertas |
+| **Na nuvem**          | Forma de administrar | Portal, CLI, APIs, PowerShell |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+- Diferença entre **gerenciamento da nuvem** (recursos) e **gerenciamento na nuvem** (formas de administrar).  
+- Benefícios da automação: **autoescala, monitoramento, alertas**.  
+- Ferramentas de gerenciamento: **Azure Portal, CLI, APIs, PowerShell**.  
+
+---
+
+## [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/6-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+![img-AvaliacaoModulo2.png](./images/AvaliacaoModulo2.png)
+
+---
+
+## [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-benefits-use-cloud-services/7-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+Neste módulo, conhecemos alguns dos benefícios de operar na nuvem. Aprendemos sobre alta disponibilidade e confiabilidade e como elas funcionam para manter os aplicativos em execução. Também aprendemos como a nuvem pode oferecer um ambiente mais seguro. Por fim, aprendemos que a nuvem oferece um ambiente altamente gerenciável para os recursos.
+
+### Objetivos de aprendizagem
+
+Agora você deve estar apto a:
+
+- Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem.
+- Descrever os benefícios da confiabilidade e da previsibilidade na nuvem.
+- Descrever os benefícios da segurança e da governança na nuvem.
+- Descrever os benefícios da capacidade de gerenciamento na nuvem.
+
+### Recursos adicionais
+
+Os recursos a seguir oferecem mais informações sobre os tópicos neste módulo ou relacionados a ele.
+
+[Criar ótimas soluções com o Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/pt-br/learn/paths/azure-well-architected-framework/) é um curso do Microsoft Learn que apresenta o Microsoft Azure Well-Architected Framework.
 
 ---
