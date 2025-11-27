@@ -6,9 +6,233 @@ Este módulo aborda os diferentes tipos de serviço de nuvem e compartilha algun
 
 Visão geral
 
-- [Introdução](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever a infraestrutura como um serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/2-describe-infrastructure-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever a plataforma como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/3-describe-platform-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Descrever o software como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/4-describe-software-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+- [Introdução](#introdução)
+- [Descrever a infraestrutura como um serviço](#descrever-a-infraestrutura-como-um-serviço)
+- [Descrever a plataforma como serviço](#descrever-a-plataforma-como-serviço)
+- [Descrever o software como serviço](#descrever-o-software-como-serviço)
 - [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
-- [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+- [Resumo](#resumo)
+
+---
+
+## [Introdução](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/1-introduction/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+Neste módulo, você conhecerá os tipos de serviço de nuvem. Você aprenderá como cada tipo de serviço de nuvem determina a flexibilidade no gerenciamento e na configuração de recursos. Você entenderá como o modelo de responsabilidade compartilhada se aplica a cada tipo de serviço de nuvem e verá vários casos de uso para cada tipo de serviço de nuvem.
+
+### Objetivos de aprendizagem
+
+Depois de concluir este módulo, você poderá:
+
+- Descrever o IaaS (infraestrutura como serviço).
+- Descrever a PaaS (plataforma como serviço).
+- Descrever Software como Serviço (SaaS).
+- Identificar os casos de uso apropriados para cada serviço de nuvem (IaaS, PaaS e SaaS).
+
+---
+
+## [Descrever a infraestrutura como um serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/2-describe-infrastructure-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+### 🔹 Definição
+
+- **IaaS (Infrastructure as a Service)** = categoria mais flexível de serviços de nuvem.  
+- Você **aluga hardware** em um datacenter de nuvem.  
+- O provedor cuida da **infraestrutura física, conectividade e segurança física**.  
+- Você é responsável por **sistema operacional, configuração de rede, banco de dados, armazenamento, patches e segurança lógica**.  
+
+👉 Benefício-chave: **máximo controle sobre os recursos de nuvem**.
+
+---
+
+### 🔹 Modelo de responsabilidade compartilhada
+
+- **Provedor de nuvem**: mantém hardware, rede e segurança física.  
+- **Cliente (você)**: gerencia software, SO, patches, configuração e segurança lógica.  
+- IaaS = maior parte da responsabilidade está com o cliente.  
+
+O diagrama a seguir ilustra o Modelo de Responsabilidades
+
+![img-ModeloDeResponsabilidade.svg](./images/ModeloDeResponsabilidade.svg)
+
+---
+
+### 🔹 Cenários comuns de uso
+
+- **Migração lift-and-shift**  
+  - Replicar recursos de datacenter local na nuvem.  
+  - Migrar aplicações existentes sem grandes alterações.  
+
+- **Teste e desenvolvimento**  
+  - Criar ambientes de dev/test rapidamente.  
+  - Ligar/desligar ambientes conforme necessidade.  
+  - Controle total sobre configuração e replicação.  
+
+---
+
+### 📊 Comparativo rápido (IaaS vs. outros modelos)
+
+| Modelo | Controle do cliente | Responsabilidade do provedor | Exemplos |
+|--------|---------------------|------------------------------|----------|
+| **IaaS** | Máximo (SO, apps, segurança lógica) | Hardware, rede, segurança física | VMs, redes virtuais |
+| **PaaS** | Aplicações e dados | SO, runtime, patches, infraestrutura | Azure App Service, Azure SQL |
+| **SaaS** | Apenas uso da aplicação | Todo o resto | Microsoft 365, Dynamics 365 |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Definição de **IaaS** e seu nível de controle.  
+- Diferença entre responsabilidades do **cliente** e do **provedor**.  
+- Exemplos de cenários: **lift-and-shift** e **teste/desenvolvimento**.  
+- Comparação com **PaaS** e **SaaS**.  
+
+---
+
+## [Descrever a plataforma como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/3-describe-platform-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+### 🔹 Definição
+
+- **PaaS** = meio termo entre **IaaS** (infraestrutura) e **SaaS** (software pronto).  
+- O provedor de nuvem mantém:
+  - Infraestrutura física, segurança física e conectividade.  
+  - Sistemas operacionais, middleware, bancos de dados, ferramentas de desenvolvimento e serviços de BI.  
+- Cliente foca em **desenvolver e gerenciar aplicações**, sem se preocupar com licenciamento, patches ou manutenção de SO/banco de dados.  
+
+👉 Benefício-chave: **ambiente completo de desenvolvimento sem necessidade de gerenciar infraestrutura**.
+
+---
+
+### 🔹 Modelo de responsabilidade compartilhada
+
+- **Provedor de nuvem**: infraestrutura física, SO, bancos de dados, ferramentas de desenvolvimento, patches e atualizações.  
+- **Cliente**: desenvolvimento de aplicações, dados, segurança de rede/aplicação (dependendo da configuração).  
+- Analogia: como usar um computador corporativo → TI mantém o dispositivo atualizado, você usa para criar.  
+
+O diagrama a seguir ilustra o Modelo de Responsabilidades
+
+![img-ModeloDeResponsabilidade.svg](./images/ModeloDeResponsabilidade.svg)
+
+---
+
+### 🔹 Cenários comuns de uso
+
+- **Estrutura de desenvolvimento**  
+  - Fornece base para criar ou personalizar aplicativos.  
+  - Inclui recursos como **escalabilidade, alta disponibilidade e multilocação**.  
+  - Reduz necessidade de codificação manual.  
+
+- **Análise / Business Intelligence**  
+  - Ferramentas de BI integradas permitem minerar dados e gerar insights.  
+  - Apoia decisões de negócio, previsão de resultados e análise de ROI.  
+
+---
+
+### 📊 Comparativo rápido (PaaS vs. outros modelos)
+
+| Modelo | Controle do cliente | Responsabilidade do provedor | Exemplos |
+|--------|---------------------|------------------------------|----------|
+| **IaaS** | SO, apps, segurança lógica | Hardware, rede, segurança física | VMs, redes virtuais |
+| **PaaS** | Aplicações e dados | SO, bancos de dados, middleware, ferramentas | Azure App Service, Azure SQL Database |
+| **SaaS** | Apenas uso da aplicação | Toda a infraestrutura e manutenção | Microsoft 365, Dynamics 365 |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Definição de **PaaS** e seu papel como ambiente de desenvolvimento.  
+- Diferença de responsabilidades entre cliente e provedor.  
+- Cenários típicos: **desenvolvimento de apps** e **business intelligence**.  
+- Comparação com IaaS e SaaS.  
+
+---
+
+## [Descrever o software como serviço](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/4-describe-software-service/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+### 🔹 Definição
+
+- **SaaS (Software as a Service)** = modelo mais completo do ponto de vista do produto.  
+- Você **usa um aplicativo totalmente desenvolvido** hospedado na nuvem.  
+- Exemplos: **email, aplicativos financeiros, mensagens, produtividade empresarial (Microsoft 365, Teams, Dynamics 365)**.  
+- **Menos flexível**, mas **mais fácil de usar** → requer pouco conhecimento técnico.  
+
+👉 Benefício-chave: **uso imediato de aplicações prontas, sem necessidade de gerenciar infraestrutura ou software**.
+
+---
+
+### 🔹 Modelo de responsabilidade compartilhada
+
+- **Provedor de nuvem**: responsável por quase tudo → segurança física, energia, conectividade, desenvolvimento e aplicação de patches nos aplicativos.  
+- **Cliente (usuário)**: responsável apenas por:
+  - Dados inseridos no sistema.  
+  - Dispositivos conectados.  
+  - Usuários e acessos.  
+
+👉 SaaS = **menor responsabilidade para o cliente** e **maior responsabilidade para o provedor**.
+
+---
+
+### 🔹 Cenários comuns de uso
+
+- **Email e mensagens** → Outlook, Exchange Online, Teams.  
+- **Aplicativos de produtividade empresarial** → Microsoft 365, Google Workspace.  
+- **Controle de finanças e despesas** → aplicativos de ERP e contabilidade.  
+
+---
+
+### 📊 Comparativo rápido (IaaS vs. PaaS vs. SaaS)
+
+| Modelo | Controle do cliente | Responsabilidade do provedor | Exemplos |
+|--------|---------------------|------------------------------|----------|
+| **IaaS** | Máximo (SO, apps, segurança lógica) | Hardware, rede, segurança física | VMs, redes virtuais |
+| **PaaS** | Aplicações e dados | SO, bancos de dados, middleware, ferramentas | Azure App Service, Azure SQL Database |
+| **SaaS** | Apenas uso da aplicação e dados | Toda a infraestrutura e manutenção | Microsoft 365, Dynamics 365, Teams |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Definição de **SaaS** e sua facilidade de uso.  
+- Diferença de responsabilidades → cliente cuida de **dados, dispositivos e usuários**; provedor cuida de todo o resto.  
+- Exemplos típicos de SaaS: **email, mensagens, produtividade, finanças**.  
+- Comparação com IaaS e PaaS.  
+
+---
+
+## 📊 Comparativo – IaaS vs. PaaS vs. SaaS
+
+| Modelo | Definição | Responsabilidade do cliente | Responsabilidade do provedor | Cenários comuns | Exemplos |
+|--------|-----------|-----------------------------|------------------------------|-----------------|----------|
+| **IaaS** (Infraestrutura como Serviço) | Aluguel de hardware e infraestrutura de nuvem | SO, apps, patches, configuração de rede, segurança lógica | Hardware, rede, segurança física | **Lift-and-shift**, ambientes de teste e desenvolvimento | Máquinas Virtuais (VMs), Redes Virtuais |
+| **PaaS** (Plataforma como Serviço) | Ambiente completo de desenvolvimento e banco de dados | Aplicações e dados, parte da segurança | SO, bancos de dados, middleware, ferramentas de dev, patches | Desenvolvimento de apps, análise e BI | Azure App Service, Azure SQL Database |
+| **SaaS** (Software como Serviço) | Aplicações prontas entregues pela nuvem | Dados, dispositivos conectados, usuários | Toda a infraestrutura, SO, apps, patches, segurança | Email, mensagens, produtividade, finanças | Microsoft 365, Teams, Dynamics 365 |
+
+---
+
+## 🎯 Pontos-chave para o exame
+
+- **IaaS** → mais flexível, maior controle, maior responsabilidade do cliente.  
+- **PaaS** → meio termo, foco em desenvolvimento, responsabilidades divididas.  
+- **SaaS** → menos flexível, mais fácil de usar, responsabilidade quase toda do provedor.  
+- **Exemplos práticos** são frequentemente cobrados em questões de múltipla escolha.  
+
+---
+
+## [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/5-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+![img-AvaliacaoModulo3.png](./images/AvaliacaoModulo3.png)
+
+---
+
+## [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/6-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.microsoft-azure-fundamentals-describe-cloud-concepts)
+
+Neste módulo, você aprendeu sobre os tipos de serviço de nuvem e alguns cenários comuns para cada tipo. Você também reforçou como o modelo de responsabilidade compartilhada determina suas responsabilidades com diferentes tipos de serviço de nuvem.
+
+### Objetivos de aprendizagem
+
+Agora você deve estar apto a:
+
+- Descrever a IaaS (infraestrutura como serviço).
+- Descrever a PaaS (plataforma como serviço).
+- Descrever Software como Serviço (SaaS).
+- Identificar os casos de uso apropriados para cada serviço de nuvem (IaaS, PaaS e SaaS).
+
+---
