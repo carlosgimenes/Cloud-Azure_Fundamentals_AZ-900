@@ -38,7 +38,7 @@ Depois de concluir este módulo, você poderá:
 
 ## [O que é o Microsoft Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/2-what-microsoft-azure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 
-https://learn-video.azurefd.net/vod/player?id=c27bf1d6-d1b6-410e-a271-e7ae999f2434&locale=pt-br&embedUrl=%2Ftraining%2Fmodules%2Fdescribe-core-architectural-components-of-azure%2F2-what-microsoft-azure
+[Este vídeo apresenta o Microsoft Azure](https://learn-video.azurefd.net/vod/player?id=c27bf1d6-d1b6-410e-a271-e7ae999f2434&locale=pt-br&embedUrl=%2Ftraining%2Fmodules%2Fdescribe-core-architectural-components-of-azure%2F2-what-microsoft-azure)
 
 ### 🔹 Definição
 
