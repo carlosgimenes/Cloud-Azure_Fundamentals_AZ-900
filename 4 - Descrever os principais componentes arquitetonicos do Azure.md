@@ -10,7 +10,7 @@ Visão geral
 - [O que é o Microsoft Azure](#o-que-é-o-microsoft-azure)
 - [Introdução a contas do Azure](#introdução-a-contas-do-azure)
 - [Exercício - Explorar a interação com o Azure](#exercício---explorar-a-interação-com-o-azure)
-- [Descrever a infraestrutura física do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+- [Descrever a infraestrutura física do Azure](#descrever-a-infraestrutura-física-do-azure)
 - [Descrever a infraestrutura de gerenciamento do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Exercício - Criar uma conta do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Avaliação do módulo](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
@@ -218,5 +218,88 @@ Neste exercício, você explora maneiras de interagir com o Microsoft Azure. Voc
 - Alternância entre **PowerShell** e **Bash** no Cloud Shell.  
 - Função do **modo interativo da CLI**.  
 - Exemplos de comandos básicos (`Get-date`, `date`, `az version`, `az upgrade`).  
+
+---
+
+## [Descrever a infraestrutura física do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+
+### 🔹 Datacenters
+
+- Instalações físicas com racks, energia, refrigeração e rede.  
+- Distribuídos globalmente, mas **não acessíveis diretamente**.  
+- Agrupados em **Regiões** e **Zonas de Disponibilidade** para garantir resiliência.
+
+---
+
+### 🔹 Regiões
+
+- Área geográfica com **um ou mais datacenters** conectados por rede de baixa latência.  
+- Ao criar recursos, você escolhe a região de implantação.  
+- Alguns serviços são **globais** (não exigem escolha de região), como **Azure AD, Gerenciador de Tráfego e DNS**.  
+- Nem todos os serviços estão disponíveis em todas as regiões (ex.: tamanhos específicos de VMs).
+
+---
+
+### 🔹 Zonas de Disponibilidade
+
+- **Datacenters fisicamente separados** dentro de uma mesma região.  
+- Cada zona tem energia, resfriamento e rede independentes.  
+- Conectadas por fibra óptica privada de alta velocidade.  
+- **Resiliência**: se uma zona falhar, outras continuam funcionando.  
+- **Requisito mínimo**: 3 zonas em regiões habilitadas.  
+- Principais usos: **VMs, discos gerenciados, balanceadores de carga, bancos de dados SQL**.  
+
+![img-DiagramaZonasDisponibilidade.png](./images/availability-zones.png)
+
+**Categorias de serviços:**
+
+1. **Serviços em zonas** → fixados em uma zona específica (ex.: VMs, discos).  
+2. **Serviços com redundância de zona** → replicados automaticamente entre zonas (ex.: SQL Database, armazenamento redundante).  
+3. **Serviços não regionais** → sempre disponíveis globalmente (ex.: Azure AD).  
+
+---
+
+### 🔹 Pares de Regiões
+
+- Regiões emparelhadas dentro da mesma geografia (pelo menos 300 milhas ou ~480 km de distância).  
+- Benefícios:
+  - **Failover automático** em caso de desastre.  
+  - **Atualizações planejadas** aplicadas em uma região por vez.  
+  - **Dados permanecem na mesma geografia** (exceto Sul do Brasil).  
+- Exemplos:  
+  - Oeste dos EUA ↔ Leste dos EUA.  
+  - Sudeste da Ásia ↔ Leste da Ásia.  
+- Observação: alguns pares são **unidirecionais** (ex.: Índia Ocidental ↔ Sul da Índia, Sul do Brasil ↔ Centro-Sul dos EUA).
+
+![img-DiagramaParesRegiao.png](./images/region-pairs.png)
+
+---
+
+### 🔹 Regiões soberanas
+
+- Instâncias isoladas do Azure, criadas para requisitos legais ou de conformidade.  
+- Exemplos:  
+  - **US Gov / DoD** → operadas por cidadãos dos EUA, com certificações extras.  
+  - **China (Leste/Norte)** → operadas pela 21Vianet, não diretamente pela Microsoft.  
+
+---
+
+### 📊 Comparativo rápido
+
+| Conceito               | Características principais | Exemplos |
+|-------------------------|----------------------------|----------|
+| **Região**             | Área geográfica com datacenters | Oeste dos EUA, Europa Norte |
+| **Zona de Disponibilidade** | Datacenters independentes dentro da região | 3 zonas mínimas em regiões habilitadas |
+| **Par de Regiões**     | Regiões emparelhadas para resiliência | Oeste ↔ Leste dos EUA |
+| **Região soberana**    | Instância isolada para requisitos legais | US Gov, China (21Vianet) |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **região, zona de disponibilidade, par de regiões e região soberana**.  
+- Serviços **em zonas**, **com redundância de zona** e **não regionais**.  
+- Benefícios dos **pares de regiões** (failover, atualizações, jurisdição legal).  
+- Exemplo de regiões soberanas (US Gov, China).  
 
 ---
