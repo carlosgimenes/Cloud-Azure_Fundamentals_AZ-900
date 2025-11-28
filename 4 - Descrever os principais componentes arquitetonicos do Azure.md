@@ -8,8 +8,8 @@ Visão geral
 
 - [Introdução](#introdução)
 - [O que é o Microsoft Azure](#o-que-é-o-microsoft-azure)
-- [Introdução a contas do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
-- [Exercício - Explorar a interação com o Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+- [Introdução a contas do Azure](#introdução-a-contas-do-azure)
+- [Exercício - Explorar a interação com o Azure](#exercício---explorar-a-interação-com-o-azure)
 - [Descrever a infraestrutura física do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Descrever a infraestrutura de gerenciamento do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Exercício - Criar uma conta do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
@@ -87,5 +87,140 @@ Depois de concluir este módulo, você poderá:
 - Benefícios principais: **inovação, integração, confiança**.  
 - Exemplos de serviços: **VMs, IA/ML, armazenamento dinâmico**.  
 - Entender que a nuvem é mais do que apenas rodar VMs → habilita **novos cenários**.  
+
+---
+
+## [Introdução a contas do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/3-get-started-azure-accounts/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+
+### 🔹 Conta e Assinatura
+
+- Para usar o Azure, é necessário criar uma **conta do Azure**.  
+- Ao criar a conta, uma **assinatura** é gerada automaticamente.  
+- É possível criar **assinaturas adicionais** dentro da mesma conta (ex.: uma conta corporativa com assinaturas separadas para desenvolvimento, marketing e vendas).  
+- Dentro de cada assinatura, você cria e gerencia **recursos do Azure**.  
+
+👉 Escopo hierárquico: **Conta → Assinatura → Recursos**.
+
+![img-EscopoHierarquicoContaAssinatura.svg](./images/account-scope-levels.png)
+
+---
+
+### 🔹 Tipos de contas
+
+- **Conta gratuita do Azure**:
+  - Produtos populares gratuitos por **12 meses**.  
+  - **Crédito inicial** para usar nos primeiros 30 dias.  
+  - Mais de **25 produtos sempre gratuitos**.  
+  - Requisitos: número de telefone, cartão de crédito (apenas para verificação), conta Microsoft ou GitHub.  
+  - Não há cobrança até atualizar para assinatura paga.  
+
+- **Conta de estudante gratuita do Azure**:
+  - Produtos gratuitos por **12 meses**.  
+  - Crédito de **US$ 100** válido por 12 meses.  
+  - Ferramentas gratuitas para desenvolvedores.  
+  - Não exige cartão de crédito.  
+
+---
+
+### 🔹 Como adquirir
+
+- Diretamente pelo site do Azure.  
+- Por meio de representante da Microsoft.  
+- Via **parceiros CSP (Cloud Solution Provider)** → oferecem soluções gerenciadas completas.  
+
+[Este vídeo apresenta o processo de criação de uma conta no Azure](https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed-one-stream.html?id=ac3ad75e-6841-4b66-b3b2-19c85b0e36c3&locale=pt-br&embedUrl=%2Ftraining%2Fmodules%2Fdescribe-core-architectural-components-of-azure%2F3-get-started-azure-accounts)
+
+---
+
+### 🔹 Exercícios BYOS (Bring Your Own Subscription)
+
+- Muitos módulos de aprendizagem exigem que você tenha **sua própria assinatura** para praticar.  
+- Cada exercício inclui uma **etapa de limpeza** → importante para evitar custos inesperados.  
+
+---
+
+### 📊 Comparativo rápido
+
+| Tipo de conta | Benefícios | Requisitos |
+|---------------|------------|------------|
+| **Gratuita**  | 12 meses de produtos populares, crédito inicial de 30 dias, 25 produtos sempre gratuitos | Telefone, cartão de crédito (verificação), conta Microsoft/GitHub |
+| **Estudante** | 12 meses de produtos, crédito de US$ 100, ferramentas de dev | Telefone, conta Microsoft/GitHub (sem cartão de crédito) |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **conta** e **assinatura**.  
+- Benefícios da **conta gratuita** e da **conta de estudante gratuita**.  
+- Escopo hierárquico: conta → assinatura → recursos.  
+- Importância da **etapa de limpeza** nos exercícios BYOS.  
+- Como adquirir uma conta: site, representante ou parceiro CSP.  
+
+---
+
+## [Exercício - Explorar a interação com o Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+
+Neste exercício, você explora maneiras de interagir com o Microsoft Azure. Você pode interagir com o Azure de diferentes maneiras, incluindo por meio do portal da Web ou usando a CLI (interface de linha de comando) do Azure com comandos do PowerShell ou Bash.
+
+### Acessar o Portal do Azure
+
+O portal do Azure fornece uma GUI (interface gráfica do usuário) para interagir com os serviços do Azure. Você pode navegar para diferentes áreas de serviço, gerenciar assinaturas e contas, pesquisar serviços ou configurações específicos e assim por diante.
+
+Excelente, Carlos! Esse exercício é muito importante porque o exame **AZ-900** cobra justamente as **formas de interação com o Azure**. Vamos organizar suas anotações de forma objetiva e prática:
+
+### 🔹 Formas de interação
+
+1. **Portal do Azure (GUI)**  
+   - Interface gráfica acessada em [https://portal.azure.com](https://portal.azure.com).  
+   - Permite navegar por serviços, gerenciar assinaturas, contas e configurações.  
+   - Ideal para iniciantes ou administração visual.  
+
+2. **CLI (Command-Line Interface)**  
+   - Acessada pelo **Cloud Shell** dentro do portal.  
+   - Suporte a **PowerShell** e **Bash**.  
+   - Alternância rápida entre modos (`pwsh` ↔ `bash`).  
+   - Comandos do Azure começam com `az`.  
+
+3. **Modo interativo da CLI**  
+   - Executado com `az interactive`.  
+   - Funciona como um **IDE simplificado**: preenchimento automático, descrições de comando, exemplos.  
+   - Não exige prefixo `az` nos comandos.  
+   - Útil para quem não domina PowerShell ou Bash.  
+
+---
+
+### 🔹 Exemplos práticos
+
+- **PowerShell**  
+  - `Get-date` → retorna data/hora atuais.  
+  - `az version` → verifica versão da CLI.  
+
+- **Bash**  
+  - `date` → retorna data/hora atuais.  
+  - `az upgrade` → atualiza CLI.  
+
+- **Modo interativo**  
+  - `version` ou `upgrade` → executados sem `az`.  
+  - `exit` → sair do modo interativo.  
+
+---
+
+### 📊 Comparativo rápido
+
+| Método de interação | Características | Exemplos |
+|---------------------|-----------------|----------|
+| **Portal (GUI)**    | Interface gráfica, fácil de usar | Gerenciar recursos via navegador |
+| **CLI PowerShell**  | Linha de comando, comandos `az` + PowerShell | `Get-date`, `az version` |
+| **CLI Bash**        | Linha de comando, comandos `az` + Bash | `date`, `az upgrade` |
+| **CLI Interativo**  | Preenchimento automático, estilo IDE | `version`, `upgrade`, `exit` |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **Portal do Azure** e **CLI**.  
+- Alternância entre **PowerShell** e **Bash** no Cloud Shell.  
+- Função do **modo interativo da CLI**.  
+- Exemplos de comandos básicos (`Get-date`, `date`, `az version`, `az upgrade`).  
 
 ---
