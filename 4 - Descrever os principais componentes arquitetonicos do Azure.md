@@ -11,7 +11,7 @@ Visão geral
 - [Introdução a contas do Azure](#introdução-a-contas-do-azure)
 - [Exercício - Explorar a interação com o Azure](#exercício---explorar-a-interação-com-o-azure)
 - [Descrever a infraestrutura física do Azure](#descrever-a-infraestrutura-física-do-azure)
-- [Descrever a infraestrutura de gerenciamento do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+- [Descrever a infraestrutura de gerenciamento do Azure](#descrever-a-infraestrutura-de-gerenciamento-do-azure)
 - [Exercício - Criar uma conta do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/7-exercise-create-azure-resource/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Avaliação do módulo](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
 - [Resumo](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/9-summary/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
@@ -301,5 +301,76 @@ Neste exercício, você explora maneiras de interagir com o Microsoft Azure. Voc
 - Serviços **em zonas**, **com redundância de zona** e **não regionais**.  
 - Benefícios dos **pares de regiões** (failover, atualizações, jurisdição legal).  
 - Exemplo de regiões soberanas (US Gov, China).  
+
+---
+
+## [Descrever a infraestrutura de gerenciamento do Azure](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+
+### 🔹 Recursos e Grupos de Recursos
+
+- **Recurso** = bloco básico do Azure (VMs, redes virtuais, bancos de dados, serviços cognitivos etc.).  
+- **Grupo de recursos** = contêiner lógico que organiza recursos relacionados.  
+  - Cada recurso pertence a **um único grupo de recursos**.  
+  - Grupos **não podem ser aninhados**.  
+  - Ações aplicadas ao grupo afetam todos os recursos dentro dele (ex.: exclusão, permissões).  
+- **Exemplo prático**:  
+  - Ambiente de desenvolvimento temporário → agrupar todos os recursos e excluir o grupo ao final.  
+  - Diferentes esquemas de acesso → criar grupos separados e aplicar permissões específicas.  
+
+![img-resource-group.png](./images/resource-group.png)
+
+---
+
+### 🔹 Assinaturas do Azure
+
+- **Assinatura** = unidade de gerenciamento, cobrança e escala.  
+- Vinculada a uma **conta do Azure** (identidade no Microsoft Entra ID).  
+- Uma conta pode ter várias assinaturas, mas apenas uma é necessária.  
+- **Limites de assinatura**:
+  - **Cobrança** → relatórios e faturas separados por assinatura.  
+  - **Controle de acesso** → políticas aplicadas no nível da assinatura.  
+- **Cenários para assinaturas adicionais**:
+  - Separar **ambientes** (produção, teste, segurança).  
+  - Refletir **estruturas organizacionais** (departamentos diferentes).  
+  - Gerenciar **custos** (assinatura para produção vs. desenvolvimento).  
+
+![img-subscriptions.png](./images/subscriptions.png)
+
+---
+
+### 🔹 Grupos de Gerenciamento
+
+- Escopo acima das assinaturas → organizam assinaturas em **contêineres**.  
+- Permitem aplicar **políticas de governança e RBAC** em larga escala.  
+- **Herança automática**: políticas aplicadas ao grupo de gerenciamento são herdadas por todas as assinaturas e recursos abaixo.  
+- **Exemplos práticos**:
+  - Criar hierarquia que limita VMs a uma região específica.  
+  - Atribuir RBAC no nível do grupo de gerenciamento → acesso herdado por todas as assinaturas e recursos.  
+- **Fatos importantes**:
+  - Até **10.000 grupos de gerenciamento** por diretório.  
+  - Até **6 níveis de profundidade** (sem contar raiz e assinatura).  
+  - Cada grupo/assinatura tem apenas **um pai**.  
+
+![img-management-groups-subscriptions.png](./images/management-groups-subscriptions.png)
+
+---
+
+### 📊 Hierarquia resumida
+
+| Nível | Função | Exemplos |
+|-------|--------|----------|
+| **Conta** | Identidade no Microsoft Entra ID | Usuário corporativo ou estudante |
+| **Assinatura** | Unidade de cobrança e controle de acesso | Produção, Desenvolvimento |
+| **Grupo de Recursos** | Contêiner lógico de recursos | VM + DB + App |
+| **Recurso** | Bloco básico | Máquina Virtual, Banco de Dados |
+
+---
+
+## 🎯 Pontos que podem cair no exame
+
+- Diferença entre **recurso, grupo de recursos, assinatura e grupo de gerenciamento**.  
+- Função dos **limites de assinatura** (cobrança e controle de acesso).  
+- Herança de políticas nos **grupos de gerenciamento**.  
+- Exemplos práticos de uso (ambientes separados, governança corporativa).  
 
 ---
