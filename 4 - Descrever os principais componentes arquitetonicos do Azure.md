@@ -164,10 +164,6 @@ Neste exercício, você explora maneiras de interagir com o Microsoft Azure. Voc
 
 ### Acessar o Portal do Azure
 
-O portal do Azure fornece uma GUI (interface gráfica do usuário) para interagir com os serviços do Azure. Você pode navegar para diferentes áreas de serviço, gerenciar assinaturas e contas, pesquisar serviços ou configurações específicos e assim por diante.
-
-Excelente, Carlos! Esse exercício é muito importante porque o exame **AZ-900** cobra justamente as **formas de interação com o Azure**. Vamos organizar suas anotações de forma objetiva e prática:
-
 ### 🔹 Formas de interação
 
 1. **Portal do Azure (GUI)**  
