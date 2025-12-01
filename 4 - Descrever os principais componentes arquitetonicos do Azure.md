@@ -374,3 +374,7 @@ Neste exercício, você explora maneiras de interagir com o Microsoft Azure. Voc
 - Exemplos práticos de uso (ambientes separados, governança corporativa).  
 
 ---
+
+## [Verificação de conhecimentos](https://learn.microsoft.com/pt-br/training/modules/describe-core-architectural-components-of-azure/8-knowledge-check/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-fundamentals-describe-azure-architecture-services)
+
+![img-AvaliacaoModulo1a.png](./images/AvaliacaoModulo1a.png)
