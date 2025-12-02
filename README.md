@@ -11,7 +11,7 @@
 
 A motivação para esta Jornada é obter a certificação em Azure Fundamentals.
 
-## [Parte 1 - Descrever conceitos de nuvem](https://learn.microsoft.com/pt-br/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/)
+## [Parte 1 - Descrever conceitos de nuvem](1.0%20-%20Parte%201%20-%20Descrever%20conceitos%20de%20nuvem.md)
 
 ### Parte 1 - Módulos neste roteiro de aprendizagem
 
@@ -26,7 +26,7 @@ A motivação para esta Jornada é obter a certificação em Azure Fundamentals.
 
 ---
 
-## [Parte 2 - Descrever a arquitetura e os serviços do Azure](https://learn.microsoft.com/pt-br/training/paths/azure-fundamentals-describe-azure-architecture-services/)
+## [Parte 2 - Descrever a arquitetura e os serviços do Azure](2.0%20-%20Parte%202%20-%20Descrever%20a%20arquitetura%20e%20os%20servicos%20do%20Azure.md)
 
 ### Parte 2 - Módulos neste roteiro de aprendizagem
 
@@ -44,7 +44,7 @@ A motivação para esta Jornada é obter a certificação em Azure Fundamentals.
 
 ---
 
-## [Parte 3 - Descrever o gerenciamento e a governança do Azure](https://learn.microsoft.com/pt-br/training/paths/describe-azure-management-governance/)
+## [Parte 3 - Descrever o gerenciamento e a governança do Azure](3.0%20-%20Parte%203%20-%20Descrever%20o%20gerenciamento%20e%20a%20governanca%20do%20Azure.md)
 
 ### Parte 3 - Módulos neste roteiro de aprendizagem
 
