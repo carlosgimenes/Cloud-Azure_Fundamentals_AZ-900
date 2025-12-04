@@ -61,3 +61,11 @@ A motivação para esta Jornada é obter a certificação em Azure Fundamentals.
   * Este módulo aborda as ferramentas que você pode usar para monitorar o ambiente do Azure.
 
 ---
+
+## [Avaliação prática do exame AZ-900](https://learn.microsoft.com/pt-br/credentials/certifications/azure-fundamentals/practice/assessment?assessment-type=practice&assessmentId=23&practice-assessment-type=certification)
+
+Teste suas habilidades com perguntas simuladas para ajudar você a se preparar para o exame.
+
+[Link para página do Guia de estudo do Exame AZ-900: Conceitos básicos do Microsoft Azure.](https://learn.microsoft.com/pt-br/credentials/certifications/resources/study-guides/az-900#study-resources)
+
+---
